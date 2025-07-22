@@ -28,7 +28,7 @@ printf("   ╚═╝   ╚═╝  ╚═╝╚═╝╚══════╝╚�
 printf("\n");
 printf("\n");
     printf("\033[0;32m");
-printf("  HIGH SCORE: €0.00\n");
+printf(" HIGH SCORE: €0.00\n");
     printf("\033[0m");
 printf("\n");
 printf("\n");
@@ -48,7 +48,9 @@ printf("   ██║   ██║  ██║██║███████╗█�
 printf("   ╚═╝   ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚══════╝\n");
 printf("\n");
 printf("\n");
-printf("  HIGH SCORE: 0\n");
+printf("\033[0;32m");
+printf(" HIGH SCORE: €0.00\n");
+    printf("\033[0m");
 printf("\n");
 printf("\n");
 printf("");
@@ -62,7 +64,7 @@ printf("\n");
 
 
 int main(void){
-
+    hideCursor();
 char enter[100];
 char input;
 int selection = 0;  // 0 is >play game
@@ -93,26 +95,7 @@ int x = rand() % 2;  // apparently this makes the number 0 or 1
 //enter[strcspn(enter, "\n")] = 0;  //remove the newline
 
 //if(strlen(enter) == 0) {
-	printf("> New game");
-printf("  Load Game");
-	 while (_getch() == 's' || input == 80){
 
-
-printf("  New game");
-printf("> Load Game");
-	 }
-	 
-	 else if{
-		 getch() == 'w' || input == 72){
-			printf("> New game");
-printf("  Load Game");
-
-else if (input == 'r') {
-	break;
-}	 
-		 }
-		 
-	 }
 	 
 
 system("cls");
