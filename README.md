@@ -28,13 +28,20 @@ elements for the next play-through.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ||||||||||||||||||||||||||||||||||||||||
 UNLOCK EMOJIS saved in .dat file like SUNGLASSES emoji etc depending on your highscore
-
+I like these emojis: 
+  😵💀😢     🙁      🙂      😎    🤠         🥳         💎💰🪙
+   0 0  10k    100k     1mil    1bil  100bil      1tril
 
 
 figure out different levels: some ideas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-collect bottles - maybe bring to recycling centre
-walk dogs (could use similar setup to snake game)
-mug/kill people to take take their money
-collect eggs on a farm? maybe some form of animals for more eggs, different money like pigs give some money then cows for every more.
-maybe buy houses?
+collect bottles - maybe bring to recycling centre 🍾
+walk dogs (could use similar setup to snake game) 🐶
+pizza delivery 🍕🏡
+mug/kill people to take take their money 💀
+collect eggs on a farm? maybe some form of animals for more eggs, different money like pigs give some money then cows for every more.🐔🥚🐖🐑🐓   🌽🥕🥔🍇🍉
+maybe buy property?🏨🏘️
+buy companies/factory?🏢🏭📈
+rob a bank🕶️💵💎💰
+
+
