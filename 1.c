@@ -8,6 +8,7 @@ void exitGame();
 void checkForQuit();
 void hideCursor();
 void printMenu();
+//void playGameOptions();
 
 void checkForQuit(){
 	if (_kbhit()) //khbit checks has a key been pressed its a non blocking check, the program can continue with this in the background
@@ -36,6 +37,18 @@ void hideCursor() {
     cursorInfo.bVisible = FALSE;  // hide cursor
     SetConsoleCursorInfo(hConsole, &cursorInfo);
 }
+
+//void playGameOptions(int selection){
+//	if (selection == 0) {
+//		printf("> new game\n");
+//		printf("  load game\n");
+//	}
+//	else{
+//		printf("  new game\n");
+//		printf("> load game\n");
+//	}
+//}
+
 
 void printMenu(int selection) {
 	double highscore;
@@ -105,6 +118,7 @@ printf("Press (W, A, S, D) to navigate the menu and character");
 
 
 int main(void){
+	SetConsoleOutputCP(CP_UTF8);
     hideCursor();
 	checkForQuit();
 	
@@ -134,6 +148,9 @@ printMenu(selection);
 
 
 if (selection == 0){
+	system("cls");
+//	 playGameOptions(selection);
+//	 while (_getch() != '\r');
 	checkForQuit();
 
 srand(time(NULL)); // this seeds the random number generator
@@ -145,7 +162,7 @@ int x = rand() % 2;  // apparently this makes the number 0 or 1
 
 //if(strlen(enter) == 0) {
 
-	 
+	
 
 system("cls");
 Sleep(2000);
@@ -172,13 +189,24 @@ printf("Instructions: \n");
 printf("\n");
 printf("\n");
 
-
+printf("--------------------------------------------------------------------------\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
 printf("The aim of this game is to get rich:D\n");
-Sleep(2000);
 printf("You must obtain a humble 1 Trillion euro to win the game!\n");
-Sleep(2000);
-printf("If your balance reaches 0 you will die on the streets\n");
-Sleep(2000);
+printf("If your balance reaches 0 you will die😵 on the streets\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+printf("--------------------------------------------------------------------------\n");
 printf("\n");
 printf("\n");
 printf("\n");
